@@ -18,3 +18,8 @@ body {
     margin: 0 auto;
 }
 
+.mainContainer {
+  display: flex;
+  height: calc(100vh - 72px);
+  flex-direction: column;
+}

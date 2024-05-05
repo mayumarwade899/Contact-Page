@@ -7,8 +7,10 @@ function App() {
   return (
     <div>
       <Navigation />
-      <ContactHeader />
-      <ContactForm />
+      <main className="mainContainer">
+        <ContactHeader />
+        <ContactForm />
+      </main>
     </div>
   );
 }

@@ -20,8 +20,29 @@ function ContactForm() {
           text="VIA EMAIL FORM"
           icon={<IoMdMail fontSize="24px" />}
         />
+
+        <form>
+          <div className={styles.formContainer}>
+            <label htmlFor="name">Name</label>
+            <input type="text" name="name" />
+          </div>
+          <div className={styles.formContainer}>
+            <label htmlFor="email">Email</label>
+            <input type="email" name="email" />
+          </div>
+          <div className={styles.formContainer}>
+            <label htmlFor="text">Text</label>
+            <textarea name="text" rows="8" />
+          </div>
+
+          <div style={{ display: "flex", justifyContent: "end" }}>
+            <Button text="SUBMIT" />
+          </div>
+        </form>
       </div>
-      <div className={styles.contactImage}></div>
+      <div className={styles.contactImage}>
+        <img src="/images/service.svg" alt="contactImage" />
+      </div>
     </section>
   );
 }

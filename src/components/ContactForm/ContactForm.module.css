@@ -2,9 +2,47 @@
     display: flex;
     max-width: 1000px;
     margin: 0 auto;
+    margin-top: 40px;
+    align-items: end;
 }
 
 .top_button {
     display: flex;
     gap: 32px;
 }
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contactForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.formContainer input {
+    height: 40px;
+    padding: 0 8px;
+}
+
+.formContainer label {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 700;
+    top: -10.5px;
+    left: 15px;
+    background-color: white;
+    padding: 0 5px;
+} 
+
