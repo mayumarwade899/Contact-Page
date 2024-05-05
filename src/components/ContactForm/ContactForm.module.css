@@ -36,6 +36,10 @@
     padding: 0 8px;
 }
 
+.formContainer textarea {
+    padding: 8px;
+}
+
 .formContainer label {
     position: absolute;
     font-size: 14px;
