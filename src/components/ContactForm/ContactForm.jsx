@@ -2,6 +2,7 @@ import Button from "../Button/Button";
 import styles from "./ContactForm.module.css";
 import { MdMessage } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
+import { IoMdMail } from "react-icons/io";
 
 function ContactForm() {
   return (
@@ -14,6 +15,11 @@ function ContactForm() {
           />
           <Button text="VIA CALL" icon={<IoCall fontSize="24px" />} />
         </div>
+        <Button
+          isOutline={true}
+          text="VIA EMAIL FORM"
+          icon={<IoMdMail fontSize="24px" />}
+        />
       </div>
       <div className={styles.contactImage}></div>
     </section>
